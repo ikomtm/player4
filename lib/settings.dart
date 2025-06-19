@@ -1,16 +1,13 @@
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'dart:io';
 import 'dart:math';
 import 'models/channel_strip_model.dart';
 import 'models/channel_bank_model.dart';
 import 'package:file_picker/file_picker.dart';
-import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 import 'WaveformEditorDialog.dart';
 import 'package:flutter/services.dart';
-import 'ChannelAudioController.dart';
 import 'channel1.dart';
-// Импортируем необходимые пакеты
 
 // Константы для дизайна
 class SettingsTheme {

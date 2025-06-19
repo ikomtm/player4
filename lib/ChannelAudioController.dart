@@ -223,7 +223,6 @@ class ChannelAudioController {
     }
   }
   
-  @override
   void dispose() {
     _cancelFadeIn();
     _positionSub?.cancel();

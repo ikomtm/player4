@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:player3/settings.dart';
 import 'package:provider/provider.dart';
 import 'models/channel_bank_model.dart';
-import 'package:just_audio/just_audio.dart'; 
+
 
 
 // Константы для дизайна канала

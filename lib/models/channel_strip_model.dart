@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:player3/ChannelAudioController.dart';
-import 'package:player3/channel1.dart';
+
 
 enum PlayMode {
   playStop,
