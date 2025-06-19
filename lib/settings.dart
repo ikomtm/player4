@@ -600,7 +600,7 @@ class _SettingsWindowState extends State<SettingsWindow> {
             currentChannel.controller.updatePosition(currentChannel.startTime);
             
             // Уведомляем об изменениях
-            context.read<ChannelBankModel>().notifyListeners();
+            // context.read<ChannelBankModel>().notifyListeners();
             
             Navigator.pop(context);
           },
